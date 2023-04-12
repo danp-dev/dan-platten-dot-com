@@ -18,8 +18,15 @@ import { Icon } from "astro-icon";
       format="webp"
     />
 
-    <Image src={heroImage} alt="Developer, Dan Platten looking at the camera in a checkered shirt." />
-
+    <Image
+      src={heroImage}
+      alt="Developer, Dan Platten looking at the camera in a checkered shirt."
+      widths={[200, 400, 600]}
+      aspectRatio="4:3"
+      sizes="(max-width: 800px) 100vw, 620px"
+      loading="eager"
+      format="webp"
+    />
   </div>
   <div>
     <h1
