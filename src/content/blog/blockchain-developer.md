@@ -3,7 +3,7 @@ draft: false
 title: "A guide to the blockchain space (for newbies)"
 snippet: "A short but in depth article about the blockchain space and how you might like to get involved."
 image: {
-    src: "../assets/blog-images/hero-alt.png",
+    src: "../assets/blog-images/Guide-to-Blockchain.jpeg",
     alt: "Space Man"
 }
 publishDate: "2022-04-12 11:39"
